@@ -1,0 +1,8 @@
+.borde-img {
+    width: 90%;
+    border-right: 1px solid gray;
+}
+
+.letra {
+    font-size: 12px;
+}

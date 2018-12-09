@@ -1,1 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+
+.banner {
+    background: url("assets/img/fondoider.jpg");
+    background-repeat: no-repeat;
+    background-position: center 0px;
+    padding-bottom: 30px;
+    margin-top: 85px;
+    ;
+}

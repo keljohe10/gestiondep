@@ -1,0 +1,53 @@
+.contenedor {
+    padding-top: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.app-hr {
+    border-top: 1px solid #e20613;
+    margin-top: 0px;
+    margin-right: 550px;
+}
+
+.app-hr-complete {
+    border-top: 1px solid #e20613;
+}
+
+.contenedor p {
+    color: #267b41;
+    margin: 0 0;
+    padding: 0 0;
+}
+
+h3 {
+    font-family: MontserratSemiBold, Helvetica, sans-serif;
+    font-size: 1.8rem;
+}
+
+.busqueda {
+    border-radius: 6px;
+    border: 1px solid #8080804d;
+    background-color: rgba(237, 236, 236, 0.1);
+    padding: 20px;
+}
+
+.app-col {
+    transition: all .3s ease;
+}
+
+.app-col:hover {
+    transform: scale(1.06);
+}
+
+.app-plantilla {
+    padding-bottom: 25px;
+    background-color: #e1e1e133;
+}
+
+.app-fond {
+    padding: 10px 10px;
+    border-radius: 6px;
+    border: 1px solid #80808066;
+    background-color: rgba(237, 236, 236, 0.5);
+}
