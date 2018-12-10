@@ -1,14 +1,23 @@
-<div class="container-fluid demo banner">
+<div class="jumbotron jumbotron-fluid mt-5 app-jump">
+    <div class="container">
+        <div class="titulo-jump">
+            <h2 class="display-4"><b>Escuela de formación IDER</b></h2>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid banner">
+
     <div class="contenedor">
         <div class="app-titulo">
-            <h3>Escuela de Iniciación y Formación Deportiva</h3>
+            <h3>Información general</h3>
             <hr class="app-hr">
             <p><i class="fas fa-map-marked-alt"></i> División territorial: <small>Localidad 1</small></p>
             <p><i class="fas fa-map-marker-alt"></i> Barrio: <small>La maria</small></p>
         </div>
         <br>
 
-        <h3><b>Deportistas del núcleo</b></h3>
+        <h3>Deportistas del núcleo</h3>
         <hr class="app-hr">
         <div class="row">
             <div class="col-7 app-busqueda">
@@ -18,37 +27,61 @@
                     <br>
                     <div class="app-fond">
                         <div class="form-row align-items-center">
-                            <div class="col-auto">
-                                <label class="sr-only" for="inlineFormInput">Nombres</label>
-                                <input type="text" class="form-control mb-2" id="inlineFormInput" placeholder="Nombres">
-                            </div>
-                            <div class="col-auto">
-                                <label class="sr-only" for="inlineFormInputGroup">Apellidos</label>
-                                <div class="input-group mb-2">
-                                    <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Apellidos">
+
+                            <div class="col-12">
+
+                                <div class="input-group m-2">
+                                    <label class="sr-only" for="inlineFormInputGroup">Apellidos</label>
+                                    <input type="text" class="form-control m-1" id="inlineFormInputGroup" placeholder="Apellidos">
+
+                                    <label class="sr-only" for="inlineFormInput">Nombres</label>
+                                    <input type="text" class="form-control m-1" id="inlineFormInput" placeholder="Nombres">
+
+                                    <label class="sr-only" for="inlineFormInputGroup">Documento de identidad</label>
+
+                                    <input type="text" class="form-control m-1" id="inlineFormInputGroup" placeholder="Documento de identidad">
+
                                 </div>
                             </div>
+
                         </div>
                         <div class="form-row align-items-center">
+
                             <div class="col-auto">
-                                <label class="sr-only" for="inlineFormInput">Desde año nac.</label>
-                                <input type="text" class="form-control mb-2" id="inlineFormInput" placeholder="Desde año nac.">
-                            </div>
-                            <div class="col-auto">
-                                <label class="sr-only" for="inlineFormInputGroup">Hasta año nac.</label>
-                                <div class="input-group mb-2">
-                                    <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Hasta año nac.">
+                                <small class="text-muted m-2" style="font-size: 12px;">*Seleccione una fecha de nacimiento inicial y final para buscar un rango de edades</small>
+                                <div class="input-group m-2">
+
+                                    <label class="sr-only" for="inlineFormInputGroup">Hasta año nac.</label>
+                                    <input type="date" class="form-control ml-1" id="inlineFormInputGroup" placeholder="Hasta año nac.">
+                                    <label class="sr-only" for="inlineFormInputGroup">Hasta año nac.</label>
+                                    <input type="date" class="form-control ml-1" id="inlineFormInputGroup" placeholder="Hasta año nac.">
                                 </div>
                             </div>
 
 
                         </div>
+
                         <div class="form-row align-items-center">
                             <div class="col-auto">
-                                <button type="submit" class="btn btn-success mb-2 mr-1">Buscar</button>
-                                <button type="submit" class="btn btn-primary mb-2">Limpiar</button>
+                                <div class="form-group m-2">
+                                    <label class="sr-only" for="sel1">Select list:</label>
+                                    <select class="form-control" id="sel1">
+                                          <option value="" disabled>Seleccione la capacidad fisica</option>
+                                          <option>2</option>
+                                          <option>3</option>
+                                          <option>4</option>
+                                        </select>
+                                </div>
                             </div>
                         </div>
+
+                        <div class="form-row align-items-center m-1">
+                            <div class="col-auto">
+                                <button class="btn btn-success mb-2 mr-1">Buscar</button>
+                                <button class="btn btn-primary mb-2">Limpiar</button>
+                            </div>
+                        </div>
+
                     </div>
                 </form>
             </div>

@@ -1,11 +1,34 @@
+.app-jump {
+    background: url("../../../assets/img/jump.jpg");
+    background-repeat: no-repeat;
+    background-position: center -280px;
+    height: 340px;
+}
+
+.titulo-jump {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-bottom: 12px solid #ed1b2e;
+    color: white;
+    margin-top: 202px;
+}
+
+.titulo-jump h2 {
+    font-size: 2.2rem;
+    font-family: merriweather sans, Arial, sans-serif;
+    font-weight: 500;
+    line-height: 34px;
+    padding-top: 20px;
+    padding-left: 10px;
+    text-transform: uppercase;
+}
+
 .contenedor {
-    padding-top: 25px;
     margin-left: 50px;
     margin-right: 50px;
 }
 
 .app-hr {
-    border-top: 1px solid #e20613;
+    border-top: 1px solid #ed1b2e;
     margin-top: 0px;
     margin-right: 550px;
 }
@@ -42,7 +65,7 @@ h3 {
 
 .app-plantilla {
     padding-bottom: 25px;
-    background-color: #e1e1e133;
+    background-image: -moz-radial-gradient(top left, rgba(237, 236, 236, 0.5) 15%, white 35%, rgba(237, 236, 236, 0.5));
 }
 
 .app-fond {
