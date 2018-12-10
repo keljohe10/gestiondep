@@ -6,6 +6,7 @@ import { PlantillaComponent } from './components/plantilla/plantilla.component';
 import { HeaderComponent } from './shared/header/header.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { PublicidadComponent } from './shared/publicidad/publicidad.component';
+import { AppRoutingModule } from './app.routes';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { PublicidadComponent } from './shared/publicidad/publicidad.component';
     PublicidadComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
