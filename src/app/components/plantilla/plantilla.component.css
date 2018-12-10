@@ -28,17 +28,16 @@
 }
 
 .app-hr {
-    border-top: 1px solid #ed1b2e;
+    border-top: 1px solid #267b41;
     margin-top: 0px;
     margin-right: 550px;
 }
 
 .app-hr-complete {
-    border-top: 1px solid #e20613;
+    border-top: 1px solid #267b41;
 }
 
 .contenedor p {
-    color: #267b41;
     margin: 0 0;
     padding: 0 0;
 }
