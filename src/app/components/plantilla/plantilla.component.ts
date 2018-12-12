@@ -1,3 +1,4 @@
+import { Router } from '@angular/router';
 import { PlantillaService } from '../../providers/plantilla.service';
 import { Component, OnInit } from '@angular/core';
 
@@ -10,13 +11,17 @@ export class PlantillaComponent implements OnInit {
 
   jugadores: any [] = [];
 
-  constructor(private _jugadores: PlantillaService) {
-
+  constructor(private _jugadores: PlantillaService,
+              private _route: Router) {
+      window.scrollTo(0, 0);
    }
 
   ngOnInit() {
      this.jugadores = this._jugadores.getJugadores();
-    console.log(this.jugadores);
+  }
+
+  getJugador( id: string) {
+    this._route.navigate(['/jugador', id]);
   }
 
 }

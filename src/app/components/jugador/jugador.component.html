@@ -1,0 +1,49 @@
+<div class="jumbotron jumbotron-fluid contenido app-fondo">
+    <div class="container">
+        <div class="row">
+            <div class="col-4 app-contenedor">
+                <img src="assets/img/juan.png" itemprop="photo" alt="Juan Fernando Quintero" width="610" height="620" class="img-responsive wide img-fluid app-img">
+            </div>
+            <div class="col-8">
+                <h2>Kelvin Jose <strong>Hernandez Cabrera</strong></h2>
+                <div class="container-fluid pt-2">
+                    <div class="row app-info">
+                        <div class="col-6">
+                            <p><strong>Fecha Nacimiento: </strong><small>19/02/1997</small></p>
+                            <p><strong>Lugar de Nacimiento: </strong><small>Cartagena</small></p>
+                            <p><strong>Edad: </strong><small>21</small></p>
+                            <p><strong>Localidad: </strong><small>01 (La esperanza)</small></p>
+                        </div>
+                        <div class="col-6">
+                            <p><strong>Teléfonos: </strong><small>6510836</small></p>
+                            <p><strong>Direccion: </strong><small>Urb. el nogal casa 5</small></p>
+                            <p><strong>Email: </strong><small>kelhzkb@hotmail.com</small></p>
+                            <p><strong>Tarjeta de identidad: </strong><small>9303305882</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div class="app-nav">
+    <nav class="navbar navbar-expand-lg app-cont-nav">
+        <a class="navbar-brand pr-3" style="border-right: 1px solid white;">Datos del deportista</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link" [routerLink]="['personal']">Datos personales</a>
+                <a class="nav-item nav-link" [routerLink]="['deportivo']">Datos deportivos</a>
+                <a class="nav-item nav-link" [routerLink]="['asistencia']">Asistencias</a>
+                <a class="nav-item nav-link" [routerLink]="['estudios']">Estudios</a>
+                <a class="nav-item nav-link" [routerLink]="['documentos']">Documentos</a>
+
+            </div>
+        </div>
+    </nav>
+</div>
+<router-outlet></router-outlet>

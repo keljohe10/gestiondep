@@ -66,10 +66,10 @@
                                 <div class="form-group m-2">
                                     <label class="sr-only" for="sel1">Select list:</label>
                                     <select class="form-control" id="sel1">
-                                          <option value="" disabled>Seleccione la unidad del modulo</option>
-                                          <option>Baloncesto</option>
-                                          <option>Atletismo</option>
-                                          <option>Futbol</option>
+                                          <option value="" disabled class="text-muted">*--Seleccione una etapa--*</option>
+                                          <option>Iniciación</option>
+                                          <option>Formación</option>
+
                                         </select>
                                 </div>
                             </div>
@@ -102,7 +102,7 @@
                 <div class="card-body">
                     <p class="card-text"><i class="fas fa-user"></i> <b> Nombre: </b> {{jugador.Nombre}}</p>
                     <p class="card-text"><b> <i class="fas fa-birthday-cake"></i> Fecha nacimiento: </b> {{jugador.nacimiento}} ( {{jugador.Edad}} años)</p>
-                    <button class="btn btn-outline-success btn-block">Ver más</button>
+                    <button class="btn btn-outline-danger btn-block" (click)="getJugador(jugador.id)">Ver más</button>
                 </div>
             </div>
         </div>
